@@ -96,4 +96,10 @@ fun main(args: Array<String>) {
   PigeonholeSort(ary)
   Display("Pigeonhole Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  OddEvenSort(ary)
+  Display("Odd-Even Sort", ary)
+
 }

@@ -72,4 +72,10 @@ fun main(args: Array<String>) {
   CycleSort(ary)
   Display("Cycle Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  PancakeSort(ary)
+  Display("Pancake Sort", ary)
+
 }

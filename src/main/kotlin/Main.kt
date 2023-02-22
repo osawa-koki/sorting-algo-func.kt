@@ -24,4 +24,10 @@ fun main(args: Array<String>) {
   InsertionSort(ary)
   Display("Insertion Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  MergeSort(ary)
+  Display("Merge Sort", ary)
+
 }

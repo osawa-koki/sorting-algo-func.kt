@@ -60,4 +60,10 @@ fun main(args: Array<String>) {
   BucketSort(ary)
   Display("Bucket Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  CombSort(ary)
+  Display("Comb Sort", ary)
+
 }

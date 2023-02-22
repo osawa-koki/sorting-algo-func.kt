@@ -18,4 +18,10 @@ fun main(args: Array<String>) {
   SelectionSort(ary)
   Display("Selection Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  InsertionSort(ary)
+  Display("Insertion Sort", ary)
+
 }

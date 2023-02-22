@@ -1,3 +1,4 @@
+import java.text.CollationKey
 
 fun main(args: Array<String>) {
 
@@ -101,5 +102,11 @@ fun main(args: Array<String>) {
 
   OddEvenSort(ary)
   Display("Odd-Even Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  CocktailSort(ary)
+  Display("Cocktail Sort", ary)
 
 }

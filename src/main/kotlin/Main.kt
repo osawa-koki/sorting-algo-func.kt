@@ -42,4 +42,10 @@ fun main(args: Array<String>) {
   ShellSort(ary)
   Display("Shell Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  HeapSort(ary)
+  Display("Heap Sort", ary)
+
 }

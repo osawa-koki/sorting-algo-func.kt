@@ -6,4 +6,7 @@ fun main(args: Array<String>) {
   // 配列を表示
   Display("Organized", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
 }

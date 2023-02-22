@@ -54,4 +54,10 @@ fun main(args: Array<String>) {
   CountingSort(ary)
   Display("Counting Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  BucketSort(ary)
+  Display("Bucket Sort", ary)
+
 }

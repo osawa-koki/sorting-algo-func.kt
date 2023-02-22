@@ -1,5 +1,5 @@
 
-fun SelectionSort(ary: Array<Int>): Array<Int> {
+fun SelectionSort(ary: Array<Int>) {
   for (i in 0..ary.size - 1) {
     var min = i
     for (j in i + 1..ary.size - 1) {
@@ -11,5 +11,4 @@ fun SelectionSort(ary: Array<Int>): Array<Int> {
     ary[i] = ary[min]
     ary[min] = tmp
   }
-  return ary
 }

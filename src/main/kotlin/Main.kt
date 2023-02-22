@@ -109,4 +109,10 @@ fun main(args: Array<String>) {
   CocktailSort(ary)
   Display("Cocktail Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  StrandSort(ary)
+  Display("Strand Sort", ary)
+
 }

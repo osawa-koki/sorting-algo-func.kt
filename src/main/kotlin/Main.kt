@@ -30,4 +30,10 @@ fun main(args: Array<String>) {
   MergeSort(ary)
   Display("Merge Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  QuickSort(ary)
+  Display("Quick Sort", ary)
+
 }

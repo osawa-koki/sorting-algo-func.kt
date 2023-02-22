@@ -1,5 +1,5 @@
 
-fun BubbleSort(ary: Array<Int>): Array<Int> {
+fun BubbleSort(ary: Array<Int>) {
   for (i in 0..ary.size - 1) {
     for (j in 0..ary.size - 2) {
       if (ary[j] > ary[j + 1]) {
@@ -9,5 +9,4 @@ fun BubbleSort(ary: Array<Int>): Array<Int> {
       }
     }
   }
-  return ary
 }

@@ -12,4 +12,10 @@ fun main(args: Array<String>) {
   BubbleSort(ary)
   Display("Bubble Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  SelectionSort(ary)
+  Display("Selection Sort", ary)
+
 }

@@ -78,4 +78,10 @@ fun main(args: Array<String>) {
   PancakeSort(ary)
   Display("Pancake Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  GnomeSort(ary)
+  Display("Gnome Sort", ary)
+
 }

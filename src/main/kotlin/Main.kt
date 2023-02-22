@@ -84,4 +84,10 @@ fun main(args: Array<String>) {
   GnomeSort(ary)
   Display("Gnome Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  StoogeSort(ary)
+  Display("Stooge Sort", ary)
+
 }

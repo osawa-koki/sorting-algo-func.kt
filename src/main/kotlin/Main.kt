@@ -51,4 +51,7 @@ fun main(args: Array<String>) {
   Shuffle(ary)
   Display("Shuffled", ary)
 
+  CountingSort(ary)
+  Display("Counting Sort", ary)
+
 }

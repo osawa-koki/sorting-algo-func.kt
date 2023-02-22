@@ -36,4 +36,10 @@ fun main(args: Array<String>) {
   QuickSort(ary)
   Display("Quick Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  ShellSort(ary)
+  Display("Shell Sort", ary)
+
 }

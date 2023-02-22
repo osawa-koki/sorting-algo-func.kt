@@ -1,5 +1,5 @@
 
-fun InsertionSort(ary: Array<Int>): Array<Int> {
+fun InsertionSort(ary: Array<Int>) {
   for (i in 0..ary.size - 1) {
     for (j in i downTo 1) {
       if (ary[j] < ary[j - 1]) {
@@ -9,5 +9,4 @@ fun InsertionSort(ary: Array<Int>): Array<Int> {
       }
     }
   }
-  return ary
 }

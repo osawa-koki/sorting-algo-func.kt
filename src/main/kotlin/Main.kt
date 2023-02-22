@@ -66,4 +66,10 @@ fun main(args: Array<String>) {
   CombSort(ary)
   Display("Comb Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  CycleSort(ary)
+  Display("Cycle Sort", ary)
+
 }

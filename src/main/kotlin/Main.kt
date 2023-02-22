@@ -90,4 +90,10 @@ fun main(args: Array<String>) {
   StoogeSort(ary)
   Display("Stooge Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  PigeonholeSort(ary)
+  Display("Pigeonhole Sort", ary)
+
 }

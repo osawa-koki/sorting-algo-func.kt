@@ -9,4 +9,7 @@ fun main(args: Array<String>) {
   Shuffle(ary)
   Display("Shuffled", ary)
 
+  BubbleSort(ary)
+  Display("Bubble Sort", ary)
+
 }

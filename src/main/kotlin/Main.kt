@@ -48,4 +48,7 @@ fun main(args: Array<String>) {
   HeapSort(ary)
   Display("Heap Sort", ary)
 
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
 }

@@ -1,7 +1,9 @@
-fun main(args: Array<String>) {
-  println("Hello World!")
 
-  // Try adding program arguments via Run/Debug configuration.
-  // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-  println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+
+  val ary = Array(10, { i -> i })
+
+  // 配列を表示
+  Display("Organized", ary)
+
 }

@@ -79,3 +79,9 @@ Strand Sort          (true ) : 0 1 2 3 4 5 6 7 8 9
 - [x] 奇遇転置ソート
 - [x] カクテルソート
 - [x] ストランドソート
+
+## 自分用メモ
+
+### IntelliJ IDEA実行ボタンが有効化されない
+
+`src`ディレクトリを右クリックして、`Mark Directory as` -> `Sources Root`を選択すると、実行ボタンが有効化されます。  

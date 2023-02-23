@@ -1,7 +1,117 @@
-fun main(args: Array<String>) {
-  println("Hello World!")
 
-  // Try adding program arguments via Run/Debug configuration.
-  // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-  println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+
+  val ary = Array(10, { i -> i })
+
+  // 配列を表示
+  Display("Organized", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  BubbleSort(ary)
+  Display("Bubble Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  SelectionSort(ary)
+  Display("Selection Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  InsertionSort(ary)
+  Display("Insertion Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  MergeSort(ary)
+  Display("Merge Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  QuickSort(ary)
+  Display("Quick Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  ShellSort(ary)
+  Display("Shell Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  HeapSort(ary)
+  Display("Heap Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  CountingSort(ary)
+  Display("Counting Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  BucketSort(ary)
+  Display("Bucket Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  CombSort(ary)
+  Display("Comb Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  CycleSort(ary)
+  Display("Cycle Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  PancakeSort(ary)
+  Display("Pancake Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  GnomeSort(ary)
+  Display("Gnome Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  StoogeSort(ary)
+  Display("Stooge Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  PigeonholeSort(ary)
+  Display("Pigeonhole Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  OddEvenSort(ary)
+  Display("Odd-Even Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  CocktailSort(ary)
+  Display("Cocktail Sort", ary)
+
+  Shuffle(ary)
+  Display("Shuffled", ary)
+
+  StrandSort(ary)
+  Display("Strand Sort", ary)
+
 }

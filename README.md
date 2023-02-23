@@ -10,43 +10,43 @@
 IntelliJ IDEAで`Main.kt`を実行すると、以下のような出力が得られます。  
 
 ```output
-Original             (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 7 6 1 2 0 3 4 8 9 5
+Organized            (true ) : 0 1 2 3 4 5 6 7 8 9
+Shuffled             (false) : 3 2 8 1 4 5 7 0 9 6
 Bubble Sort          (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 7 8 5 1 9 3 4 0 2 6
+Shuffled             (false) : 2 1 7 9 4 3 6 8 5 0
 Selection Sort       (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 1 3 6 8 0 2 9 4 7 5
+Shuffled             (false) : 1 7 6 0 4 2 9 3 8 5
 Insertion Sort       (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 6 3 4 1 7 2 5 8 0 9
+Shuffled             (false) : 4 9 0 1 8 7 5 2 6 3
 Merge Sort           (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 5 1 7 3 4 9 8 0 6 2
+Shuffled             (false) : 4 6 8 3 9 0 7 2 5 1
 Quick Sort           (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 6 8 5 1 3 7 0 4 2 9
-Heap Sort            (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 7 9 1 0 2 3 5 4 8 6
+Shuffled             (false) : 1 5 8 4 6 7 9 3 0 2
 Shell Sort           (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 4 7 5 3 2 1 6 8 9 0
+Shuffled             (false) : 4 5 6 3 1 9 0 8 7 2
+Heap Sort            (true ) : 0 1 2 3 4 5 6 7 8 9
+Shuffled             (false) : 1 5 9 8 4 7 0 3 2 6
 Counting Sort        (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 5 7 1 0 4 9 8 3 6 2
+Shuffled             (false) : 0 5 7 4 6 3 1 2 8 9
 Bucket Sort          (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 2 4 5 7 6 9 1 8 3 0
+Shuffled             (false) : 7 4 0 3 1 6 8 5 9 2
 Comb Sort            (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 1 7 0 5 2 8 3 6 9 4
+Shuffled             (false) : 2 3 5 6 4 7 0 8 9 1
 Cycle Sort           (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 4 1 6 0 2 7 3 8 9 5
+Shuffled             (false) : 0 9 1 8 3 2 4 7 6 5
 Pancake Sort         (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 1 3 4 2 0 6 7 9 8 5
+Shuffled             (false) : 1 7 2 6 8 4 9 5 0 3
 Gnome Sort           (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 4 3 0 5 8 6 1 2 7 9
+Shuffled             (false) : 4 0 6 2 1 8 5 9 3 7
 Stooge Sort          (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 7 0 4 3 9 6 8 1 2 5
+Shuffled             (false) : 3 8 7 4 2 1 5 6 0 9
 Pigeonhole Sort      (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 6 0 9 4 2 7 1 5 3 8
+Shuffled             (false) : 1 5 6 2 8 0 7 4 9 3
 Odd-Even Sort        (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 0 6 9 8 5 3 2 1 7 4
+Shuffled             (false) : 8 7 0 4 6 3 1 2 5 9
 Cocktail Sort        (true ) : 0 1 2 3 4 5 6 7 8 9
-Shuffled             (false) : 8 2 9 7 3 0 1 4 5 6
-Starnd Sort          (true ) : 0 1 2 3 4 5 6 7 8 9
+Shuffled             (false) : 3 2 0 4 7 9 8 5 6 1
+Strand Sort          (true ) : 0 1 2 3 4 5 6 7 8 9
 ```
 
 ---

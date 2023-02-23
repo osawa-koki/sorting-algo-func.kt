@@ -4,10 +4,7 @@
 
 ## 実行方法
 
-```shell
-docker build -t sorting-algo-func-kt .
-docker run -it --rm --name my-sorting-algo-func-kt sorting-algo-func-kt
-```
+IntelliJ IDEAで`Main.kt`を実行すると、以下のような出力が得られます。  
 
 ```output
 Original             (true ) : 0 1 2 3 4 5 6 7 8 9
